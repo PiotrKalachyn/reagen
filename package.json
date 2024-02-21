@@ -1,0 +1,23 @@
+{
+  "name": "reagen",
+  "version": "1.0.0",
+  "description": "Generate a React component's boilerplate",
+  "main": "index.js",
+  "bin": {
+    "reagen": "./reagen.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PiotrKalachyn/reagen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PiotrKalachyn/reagen/issues"
+  },
+  "homepage": "https://github.com/PiotrKalachyn/reagen#readme"
+}
