@@ -1,8 +1,8 @@
 {
-  "name": "reagen",
-  "version": "1.0.0",
+  "name": "@piotr.kalachyn/reagen",
+  "version": "1.0.1",
   "description": "Generate a React component's boilerplate",
-  "main": "index.js",
+  "main": "reagen.js",
   "bin": {
     "reagen": "./reagen.js"
   },
@@ -14,8 +14,8 @@
     "url": "git+https://github.com/PiotrKalachyn/reagen.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Piotr kalachyn",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/PiotrKalachyn/reagen/issues"
   },
