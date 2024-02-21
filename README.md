@@ -26,7 +26,7 @@ sudo npm install -g @lingo-daily/reagen
 So now when you run
 
 ```
-reagen.js SampleComponent
+reagen SampleComponent
 ```
 
 …it creates two files: a modular stylesheet placeholder:
@@ -62,7 +62,7 @@ return <div className={styles.component}>
 Some options for frequently needed features:
 
 ```
-reagen.js SampleComponent --loading --param --effect
+reagen SampleComponent --loading --param --effect
 ```
 
 …to include one or all of the following (along with the relevant imports):
