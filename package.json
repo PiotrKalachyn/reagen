@@ -1,6 +1,6 @@
 {
-  "name": "@piotr.kalachyn/reagen",
-  "version": "1.0.1",
+  "name": "@lingo-daily/reagen",
+  "version": "1.0.2",
   "description": "Generate a React component's boilerplate",
   "main": "reagen.js",
   "bin": {
