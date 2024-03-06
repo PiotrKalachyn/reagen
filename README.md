@@ -33,7 +33,7 @@ reagen SampleComponent
 
 ```
 // SampleComponent.module.scss
-.component {
+.SampleComponent {
 --dummy: 'replace with your styles';
 }
 ```
@@ -52,7 +52,7 @@ children?: ReactNode | ReactNode[];
 
 
 export function SampleComponent({children}: SampleComponentProps) {
-return <div className={styles.component}>
+return <div className={styles.SampleComponent}>
 {children}
   </div>;
 }
