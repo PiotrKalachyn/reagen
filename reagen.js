@@ -4,6 +4,7 @@
 const fs = require('fs');
 const path = require('path');
 const VALID_COMPONENT_NAME = /[a-z][a-z\d]+/gi;
+const {name, version} = require('./package.json');
 
 const options = process.argv.reduce((options, arg, index) => {
     if (index >= 2) {
@@ -11,6 +12,8 @@ const options = process.argv.reduce((options, arg, index) => {
             options[arg.substring(2)] = true;
         } else if (VALID_COMPONENT_NAME.test(arg)) {
             options.componentName = arg;
+        } else if (arg.substring(0, 2) === '-v') {
+            console.info(`${name} v.${version}`);
         }
     }
     return options;
