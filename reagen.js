@@ -40,7 +40,7 @@ if (fs.existsSync(scssFilePath)) {
 }
 
 const scssTemplate = `// ${scssFilePath}
-.component {
+.${componentName} {
   --dummy: 'replace with your styles';
 }
 `;
@@ -59,7 +59,7 @@ export function ${componentName}({children}: ${componentName}Props) {
   ${param ? 'const {someParam} = useParams();' : ''}
   ${effect ? `useEffect(() => {\n    console.info('Component ${componentName} has mounted');\n  }, [] );` : ''}
 
-  return <div className={styles.component}>
+  return <div className={styles.${componentName}}>
   {children}
   </div>;
 }
